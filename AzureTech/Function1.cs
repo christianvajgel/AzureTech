@@ -18,26 +18,24 @@ namespace AzureTech
             ILogger log)
         {
 
-
             return new OkObjectResult(
-
                 new[] {
-                new
-                {
-                    Id = 1,
-                    BookName = "Clean Coder",
-                    Price = 39.99D,
-                    Author = "Robert C. Martin"
-                },
-                new
-                {
-                    Id = 2,
-                    BookName = "Clean Coder",
-                    Price = 39.99D,
-                    Author = "Robert C. Martin"
-                }, 
+                        new
+                        {
+                            Id = 1,
+                            BookName = "Clean Coder",
+                            Price = 39.99D,
+                            Author = "Robert C. Martin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BookName = "Clean Coder",
+                            Price = 39.99D,
+                            Author = "Robert C. Martin"
+                        },
                 }
-                );
+            );
         }
     }
 }
